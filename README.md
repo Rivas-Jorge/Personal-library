@@ -13,7 +13,7 @@ How to Contribute
 If you would like to contribute to the website, please fork the repository and make your changes. Once you are satisfied with your changes, submit a pull request for review.
 
 Contact
-If you have any questions or feedback, please feel free to contact me through my website or social media accounts linked on the site.
+If you have any questions or feedback, please feel free to contact me through my website or social media accounts .
 
 Thank you for visiting!
 
