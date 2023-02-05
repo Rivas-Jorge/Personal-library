@@ -1,4 +1,4 @@
-///text to search code
+///text to search 
 function search() {
   let textToSearch = document.getElementById("text-to-search").value;
   let paragraph = document.getElementById("paragraph");
@@ -10,7 +10,7 @@ function search() {
   paragraph.innerHTML = paragraph.textContent.replace(pattern, match => `<mark>${match}</mark>`)
 }
 
-///sticky header code 
+///sticky header  
 
 window.onscroll = function () {myFunction()};
 
@@ -25,3 +25,14 @@ function myFunction() {
   }
 }
 
+
+//search book function in main page 
+ 
+function searchBook() {
+    var bookName = document.getElementById("text-to-search").value.toLowerCase();
+    if (bookName === "the alchemist") {
+      window.location.href = "alchemist.html";
+    } else if (bookName === "life of pi") {
+      window.location.href = "lifeofpi.html";
+    }
+  }
