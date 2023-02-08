@@ -5,6 +5,7 @@
 }
 
 body {
+  background: linear-gradient(80deg, #f8f7f7 50%, #8c8cb1 50%);
     margin: 0;
     height: 100%;
     
@@ -12,9 +13,9 @@ body {
 
 .container {
     margin: 0 auto;
-    margin-top: 200px;
+    margin-top:100px;
     width: 56em;
-    background-color: #f5f5f5ff;
+    background-color: #c9c9d4;
     padding:  50px 40px;
     border-radius: 5px;
     box-shadow: 0 20px 35px rgba(60, 60, 60, 0.2);
@@ -35,7 +36,7 @@ body {
     border: none;
     outline: none;
     cursor: pointer;
-    color: #ffffffff;
+    color: #f1e9e9ff;
     border-radius: 3px;
 }
 .container p{
@@ -50,19 +51,20 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #e61919;
+  color: #f6efef;
   transition: all 0.7s;
 }
 .top-container {
   background-color: f1f1f1;
-  padding: 30px;
+  padding: 50px;
   text-align: center;
 }
 .header {
+  border-radius: 10px;
   padding: 20px 160px;
   background: 555;
   color: f1f1f1;
-  background-color: #b3b3b3;
+  background-color: #ece4e4;
 }
 .content {
   padding: 16px;
@@ -75,4 +77,21 @@ a:hover {
 .sticky + .content {
   padding-top: 102px;
 }
-
+.home-button {
+  width: 30%;
+    background-color: #201d2e;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #f4f0f0ff;
+    border-radius: 3px;
+}
+.bookmark-button {
+  width: 30%;
+    background-color: #201d2e;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #eee8e8ff;
+    border-radius: 3px;
+}
