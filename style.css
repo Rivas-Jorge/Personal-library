@@ -5,12 +5,20 @@
 }
 
 body {
-  background: linear-gradient(80deg, #f8f7f7 50%, #8c8cb1 50%);
+  background: linear-gradient(80deg, #f8f7f7 50%, #c9c9e8 50%);
     margin: 0;
     height: 100%;
     
 }
-
+.firstContainer{
+   margin: 0 auto;
+    margin-top:180px;
+    width: 56em;
+    background-color: #ffffff;
+    padding:  50px 40px;
+    border-radius: 5px;
+    box-shadow: 0 20px 35px rgba(60, 60, 60, 0.2);
+}
 .container {
     margin: 0 auto;
     margin-top:100px;
@@ -54,17 +62,13 @@ a:hover {
   color: #f6efef;
   transition: all 0.7s;
 }
-.top-container {
-  background-color: f1f1f1;
-  padding: 50px;
-  text-align: center;
-}
+
 .header {
   border-radius: 10px;
   padding: 20px 160px;
   background: 555;
   color: f1f1f1;
-  background-color: #ece4e4;
+  background-color: #ffffff;
 }
 .content {
   padding: 16px;
@@ -84,14 +88,34 @@ a:hover {
     outline: none;
     cursor: pointer;
     color: #f4f0f0ff;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 .bookmark-button {
   width: 30%;
-    background-color: #201d2e;
+    background-color: #000000;
     border: none;
     outline: none;
     cursor: pointer;
-    color: #eee8e8ff;
+    color: #ffffffff;
     border-radius: 3px;
+}
+
+.previous {
+   cursor: pointer;
+  background-color: #0a0a0a;
+  color: white;
+  margin-left: 190px;
+}
+
+.next {
+  margin-left: 279px;
+  cursor: pointer;
+  background-color: #0d0d0d;
+  border-radius: 5%;
+  color: white;
+      
+}
+.pageNumber {
+  text-align: center;
+    margin-bottom: -5px;
 }
