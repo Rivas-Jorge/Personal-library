@@ -36,3 +36,28 @@ function searchBook() {
       window.location.href = "lifeofpi.html";
     }
   }
+  //bookmark
+  var bookmarkButtons = document.getElementsByClassName('bookmark-button');
+  for (var i = 0; i < bookmarkButtons.length; i++) {
+    bookmarkButtons[i].addEventListener('click', function() {
+      var bookmarkKey = 'myBookmark';
+      var bookmarkData = {
+        url: window.location.href,
+        title: document.title
+      };
+      localStorage.setItem(bookmarkKey, JSON.stringify(bookmarkData));
+      window.location.href = bookmarkData.url; 
+    });
+  }
+  //gets book mark info from local storage
+  window.addEventListener('load', function() {
+    var bookmarkKey = 'myBookmark';
+    var bookmarkData = JSON.parse(localStorage.getItem(bookmarkKey));
+    if (bookmarkData) {
+      console.log('Bookmarked page URL:', bookmarkData.url);
+      console.log('Bookmarked page title:', bookmarkData.title);
+       window.location.href = bookmarkData.url;
+    } else {
+      console.log('No bookmark data found');
+    }
+  });
