@@ -49,7 +49,7 @@ function searchBook() {
       window.location.href = bookmarkData.url; 
     });
   }
-  //gets book mark info from local storage
+  //gets boook mark info from local storage
   window.addEventListener('load', function() {
     var bookmarkKey = 'myBookmark';
     var bookmarkData = JSON.parse(localStorage.getItem(bookmarkKey));
