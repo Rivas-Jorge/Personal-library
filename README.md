@@ -10,6 +10,7 @@ Technologies Used
 HTML
 CSS
 JavaScript
+libraries
 
 How to Contribute
 If you would like to contribute to the website, please fork the repository and make your changes. Once you are satisfied with your changes, submit a pull request for review.
