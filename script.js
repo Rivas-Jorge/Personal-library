@@ -10,7 +10,7 @@ function search() {
   paragraph.innerHTML = paragraph.textContent.replace(pattern, match => `<mark>${match}</mark>`)
 }
 
-///sticky header  
+///sticky top header 
 
 window.onscroll = function () {myFunction()};
 
