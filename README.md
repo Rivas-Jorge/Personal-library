@@ -9,7 +9,7 @@ Browse through  books and read
 Technologies Used
 HTML
 CSS
-JavaScript
+JavaScript json
 libraries
 
 How to Contribute
