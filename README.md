@@ -1,4 +1,4 @@
-working on implimenting fuse.js for better search
+working on implimenting fuse.js for better search 
 
 #
 Welcome to my book website! This site is dedicated to showcasing book i have learned from.
@@ -7,6 +7,7 @@ Features
 Browse through  books and read 
 
 Technologies Used
+React
 HTML
 CSS
 JavaScript json
