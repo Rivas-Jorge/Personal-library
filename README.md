@@ -1,4 +1,4 @@
-working on implimenting fuse.js for better search 
+working on implimenting fuse.js and react
 
 #
 Welcome to my book website! This site is dedicated to showcasing book i have read and learned from.
